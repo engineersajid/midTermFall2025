@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Routine - Batch 43/1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Class Routine</h1>
+        <h2>Batch: 43/1 | Semester: September 2025</h2>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th class="date-column">Date</th>
+                <th class="time-column">Time</th>
+                <th class="course-column">Course Code</th>
+                <th>Course Name</th>
+                <th class="room-column">Room</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Friday</td>
+                <td>12/09/25</td>
+                <td>7:00 - 8:30 PM</td>
+                <td>CSE 407</td>
+                <td>Project Management and Professional Ethics</td>
+                <td>2/710</td>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>15/09/25</td>
+                <td>7:00 - 8:30 PM</td>
+                <td>CSE 465</td>
+                <td>Machine Learning</td>
+                <td>2/808</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>17/09/25</td>
+                <td>7:00 - 8:30 PM</td>
+                <td>CSE 417</td>
+                <td>Distributed Database Management System</td>
+                <td>2/319</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>19/09/25</td>
+                <td>7:00 - 8:30 PM</td>
+                <td>CSE 475</td>
+                <td>Data Mining</td>
+                <td>2/910</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>24/09/25</td>
+                <td>7:00 - 8:30 PM</td>
+                <td>CSE 313</td>
+                <td>Mathematical Analysis for Computer Science</td>
+                <td>2/710</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="footer">
+        <p>Generated on: <span id="current-date"></span></p>
+    </div>
+
+    <script>
+        // Add current date to footer
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString();
+        
+        // Auto-print when loaded (optional)
+        // window.onload = function() { window.print(); }
+    </script>
+</body>
+</html>
